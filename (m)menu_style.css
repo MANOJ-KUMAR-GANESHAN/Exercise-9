@@ -1,0 +1,143 @@
+/* **************************SideMenu************************** */
+
+.nav
+{ 
+    display: flex;
+    position: fixed;
+    right:0px;
+    z-index: 1;
+}
+
+.bur
+{
+    margin-top: 10px;
+    cursor: pointer; 
+}
+
+.line
+{
+    width: 25px;
+    height: 4px;
+    margin: 5px;
+    background-color: rgb(228, 220, 220);
+}
+
+.bur:hover ~ #sidebar
+{
+    transform: translateX(0);
+}
+
+#sidebar:hover
+{
+    transform: translateX(0);
+}
+
+#sidebar
+{
+    /* border: 10px solid white; */
+    background-color: black;
+    position: fixed; 
+    right:0%;
+    width: 15%;
+    height: 100vh;
+    transform: translateX(500px);
+    transition: transform 350ms ease-in-out;
+    z-index: 10;
+}
+
+.menu li
+{
+    list-style: none;
+    padding: 5px; 
+}
+
+.a1
+{
+    text-decoration: none;
+    color: white;
+    font-size: 22.5px; 
+    font-weight: 300;
+}
+
+.a1
+{
+    display: flex;
+    padding: 18px 9px;
+    text-decoration: none;
+    background: black;
+    color: #fff;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s;
+    justify-content: center;
+}
+
+.a1:hover 
+{
+    transform: scale(1.150);
+    background: gray;
+}
+
+.a2
+{
+    text-decoration: none;
+    color: white;
+    font-size: 22.5px; 
+    font-weight: 600;
+}
+
+.a2
+{
+    display: flex;
+    padding: 18px 9px;
+    text-decoration: none;
+    background: black;
+    color: #fff;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s;
+    justify-content: center;
+}
+
+
+.a2:hover
+{
+    transform: scale(1.150);
+    background: gray;
+}  
+
+.a3
+{
+    text-decoration: none;
+    color: white;
+    font-size: 22.5px; 
+    font-weight: 600;
+}
+
+.a3
+{
+    margin-top: 270px;
+    display: flex;
+    padding: 18px 9px;
+    text-decoration: none;
+    background: black;
+    color: #fff;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s;
+    justify-content: center;
+}
+
+
+.a3:hover
+{
+    transform: scale(1.150);
+    background: gray;
+}  
+
+.w
+{
+    font-weight: 900;
+}
+
+/* **************************End-SideMenu************************** */
